@@ -3,10 +3,11 @@ import { RouterOutlet } from '@angular/router';
 import { MeuBotaoComponent } from './meu-botao/meu-botao.component';
 import { BotaoFlatComponent } from './botao-flat/botao-flat.component';
 import { EventBindingComponent } from './event-binding/event-binding.component';
+import { PropertyBindingComponent } from './property-binding/property-binding.component';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, MeuBotaoComponent, BotaoFlatComponent, EventBindingComponent],
+  imports: [RouterOutlet, MeuBotaoComponent, BotaoFlatComponent, EventBindingComponent, PropertyBindingComponent],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })

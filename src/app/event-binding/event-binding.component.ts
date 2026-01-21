@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-event-binding',
   imports: [],
   templateUrl: './event-binding.component.html',
-  styleUrl: './event-binding.component.css'
+  styleUrls: ['./event-binding.component.css']
 })
 export class EventBindingComponent {
   onButtonClick(){
@@ -23,8 +23,7 @@ export class EventBindingComponent {
   onBlur(){
     console.log('onBlur')
   }
-
-  onFocus({
+  onFocus(){
     console.log('onFocus');
   }
 }
